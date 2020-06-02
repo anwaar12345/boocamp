@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        <?php echo ""Assalam O Alaikum"; ?>
+         echo "Assalam O Alaikum"; 
         </p>
         <a
           className="App-link"
