@@ -13,8 +13,7 @@ function App() {
         <a
           className="App-link"
           href="#"
-          target="_blank"
-          rel="noopener noreferrer"
+
         >
           Syed Anwar Ahmed Shah
         </a>
