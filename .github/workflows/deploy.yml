@@ -35,4 +35,4 @@ jobs:
     - name: install surge
       run: npm install -g surge
     - name: deploy surge
-      run: surge ./ shah-reactjs.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build shah-reactjs.surge.sh --token ${{secrets.SURGE_TOKEN}}
