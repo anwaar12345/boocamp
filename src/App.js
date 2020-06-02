@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Syed Anwar Ahmed Shah
         </a>
       </header>
     </div>
