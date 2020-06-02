@@ -8,12 +8,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Syed Anwar Ahmed Shah
-        </p>
+           <code>Shah g</code>         </p>
         <a
           className="App-link"
-          href="#"
-
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Syed Anwar Ahmed Shah
         </a>
