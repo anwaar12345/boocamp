@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
 import Shah from './shah';
+import './App.css';
+
 
 function App({name,age}) {
  
