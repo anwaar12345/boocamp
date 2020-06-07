@@ -1,25 +1,29 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Shah from './shah';
 
-function App() {
-  return (
-    <div className="App">
+function App({name,age}) {
+ 
+   return (
+  
+<div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-           <code>Shah g</code>         </p>
+      Name: <h3>{name}</h3>
+      Age: <h3>{age}</h3>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
           Syed Anwar Ahmed Shah
         </a>
       </header>
+      <div className="shah"> <Shah message="Message For Shah"/> </div>
     </div>
-  );
+
+);
 }
 
 export default App;
