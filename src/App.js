@@ -20,7 +20,7 @@ function App({name,age}) {
           Syed Anwar Ahmed Shah
         </a>
       </header>
-      <div className="shah"> <Shah message="Message For Shah"/> </div>
+      <div className="shah"> <Shah message="Message For Shah "/> </div>
     </div>
 
 );
