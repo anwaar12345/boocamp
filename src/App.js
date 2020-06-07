@@ -11,8 +11,8 @@ function App({name,age}) {
       <header className="App-header">
       Name: <h3>{name}</h3>
       Age: <h3>{age}</h3>
-        
       </header>
+      <h1> Syed Anwar Ahmed Shah </h1>
       <div className="shah"> <Shah message="Message For Shah "/> </div>
     </div>
 
