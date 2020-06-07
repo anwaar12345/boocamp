@@ -48,3 +48,17 @@ h3{
   margin-top: -50px;
   padding: 30px;
 }
+.card-text{
+  color: red !important;
+  text-align: center !important;
+}
+
+img{
+  height: 200px;
+}
+.card-title{
+  text-align: center;
+} 
+.card{
+  box-shadow: 3px 3px 3px 1px red;
+}
