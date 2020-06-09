@@ -6,7 +6,7 @@ function Room() {
  let [temp,setTemp] = useState(72);
  function lit(){
    console.log("clicked");
-   setLit(!isLit);
+   setLit(isLit=true);
    
  }
 
@@ -15,7 +15,7 @@ const incTemp = () => {
 }
 const style = {
  marginTop: "10px",
- fontSize: "30px",
+ fontSize: "25px",
  marginBottom: "10px",
  padding: "10px"
 };
@@ -29,7 +29,10 @@ The Room is | {isLit ? "lit" : "Dark"}
 <button className="btn btn-primary" onClick={lit}>Switch On Light Button</button>
 <br/>
 <br/>
-<button className="btn btn-primary" onClick={()=>{ setLit(!isLit) }}>Switch Off Light Button</button>
+<button className="btn btn-primary" onClick={()=>{ setLit(isLit=false) }}>Switch Off Light Button</button>
+<br/>
+<br/>
+<button className="btn btn-primary" onClick={()=>{ setLit(!isLit) }}>Toggle(on/off) Light Button</button>
 <br/>
 <br/>
 <button className="btn btn-primary" onClick={incTemp}>Increase Temperature Button</button>
