@@ -9,8 +9,8 @@ function App({name,age}) {
   
 <div className="App jumbotoron">
       <header className="App-header" >
-      Name: <h3>{name}</h3>
-      Age: <h3>{age}</h3>
+       <h3>Name: {name} Age:{age}</h3>
+      
 
       </header>
       <div className="shah"> <Shah message="Message For Shah Component"/> </div>
